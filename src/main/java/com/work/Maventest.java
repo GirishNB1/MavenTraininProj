@@ -6,5 +6,7 @@ public class Maventest {
 		// TODO Auto-generated method stub
       System.out.println("sgss "+System.getProperty("java.runtime.version"));
 	}
-
+    public void mettwo() {
+    	System.out.println("sgshsjs shshhs ");
+    }
 }
