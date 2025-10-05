@@ -27,6 +27,7 @@ public class ExtensionEx {
     Constructor<?>[] cons= any.getDeclaredConstructors();
      Object obs= cons[0].newInstance(null);
      System.out.println(obs);
+      //ahaja
      
      
 	}
