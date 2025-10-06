@@ -20,6 +20,7 @@ class CStack<T>{
 	Object[] arr;
 	 CStack(){
 		top=-1;
+		
 		this.arr=new Object[10];
 	}
 	 
