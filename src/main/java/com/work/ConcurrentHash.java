@@ -49,7 +49,6 @@ class ConcurrentDemo{
 	void push(int data) throws InterruptedException {
 		int hash=data%10;
 		synchronized (arr[hash]) {
-			
 			arr[hash]=data;
 			System.out.println("adding data " +arr[hash]);
 			Thread.sleep(3000);
