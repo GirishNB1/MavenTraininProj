@@ -14,9 +14,7 @@ public class ConcurrentHash {
 			e.printStackTrace();
 		}
 	});
-		  
-	  
-	  
+		  //gah
 	  
 	  Thread t2=new Thread( ()->{
 			try {
