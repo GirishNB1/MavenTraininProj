@@ -15,6 +15,7 @@ public class ConcurrentHash {
 		}
 	});
 	  
+	  
 	  Thread t2=new Thread( ()->{
 			try {
 				map.push(11);
