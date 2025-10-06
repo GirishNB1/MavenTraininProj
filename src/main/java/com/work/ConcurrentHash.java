@@ -34,6 +34,7 @@ public class ConcurrentHash {
 			}
 		});
 	  
+	  
 	  t1.start();t2.start();t3.start();
 	  }catch(Exception e) {
 		  e.printStackTrace();
